@@ -46,10 +46,15 @@ The processed files will be saved in the specified output directory (`OUTPUT_DIR
 If your input directory contains a file named `sample1.bam`, the output directory will contain:
 # OUTPUT_DIR/
 ├── sample1_positive.bedgraph
+
 ├── sample1_negative.bedgraph
+
 ├── sample1_positive_annotated.bedgraph
+
 ├── sample1_negative_annotated.bedgraph
+
 ├── sample1_stranded.bedgraph
+
 ├── sample1.bed
 
 # Notes
