@@ -1,15 +1,9 @@
 #!/bin/bash
 
-#SBATCH --job-name=bamtobed5NTAPUChl3qt60          # Job name
-#SBATCH --output=bamsnormalize.txt             # Standard output file
-#SBATCH --error=bamsnormalize_error.txt               # Standard error file
-#SBATCH --partition=shared      # Partition or queue name
-#SBATCH --nodes=5                       # Number of nodes
-#SBATCH --ntasks-per-node=2             # Number of tasks per node
-#SBATCH --cpus-per-task=20               # Number of CPU cores per task
-#SBATCH --time=4:00:00                  # Maximum runtime (D-HH:MM:SS)
-#SBATCH --mail-type=BEGIN,END,FAIL                 # Send email at job completion
-#SBATCH --mail-user=ozkani@bc.edu      # Email address for notifications
+# Recommended nodes 5
+# Recommended ntasks/node 2
+# Recommended cpus/task 20
+
 
 # Define input directory containing BAM files
 INPUT_DIR="all5seqbams"
